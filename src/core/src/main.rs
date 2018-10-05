@@ -31,10 +31,12 @@ extern crate rand;
 extern crate sawtooth_sdk;
 extern crate zmq;
 extern crate crypto;
+extern crate sgxffi;
 
 pub mod engine;
 pub mod service;
 pub mod enclave_sim;
+pub mod enclave_sgx;
 pub mod database;
 pub mod consensus_state;
 pub mod consensus_state_store;
